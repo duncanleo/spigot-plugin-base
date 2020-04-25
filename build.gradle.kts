@@ -9,7 +9,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
-  kotlin("jvm") version "1.3.50"
+  kotlin("jvm") version "1.3.72"
   id("com.github.johnrengelman.shadow") version "5.1.0"
   java
 }
@@ -27,7 +27,7 @@ repositories {
 dependencies {
   implementation(kotlin("stdlib"))
 
-  implementation("org.spigotmc:spigot-api:1.14.3-SNAPSHOT")
+  implementation("org.spigotmc:spigot-api:1.15.2-SNAPSHOT")
 }
 
 tasks.withType<KotlinCompile> {
