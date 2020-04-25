@@ -27,7 +27,7 @@ repositories {
 dependencies {
   implementation(kotlin("stdlib"))
 
-  implementation("org.spigotmc:spigot-api:1.15.2-SNAPSHOT")
+  implementation("org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT")
 }
 
 tasks.withType<KotlinCompile> {
